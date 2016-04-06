@@ -5,7 +5,7 @@ public class DummyFeature extends Feature{
 		super(seed);
 	}
 
-	public int value(){
+	public int value(Image img){
 		return 1;
 	}
 
