@@ -72,7 +72,7 @@ public class Perceptron {
 		System.out.printf("Epoch %d: %d/%d correct\n", count, numberCorrect, images.size());
 		if (!converged) count++;
 	 }
-	 	System.out.println("");
+	 	System.out.printf("\n\n\n");
 		System.out.printf("Feature 0: DUMMY\n");
 		for (int i =1; i < features.size(); i++) {
 			System.out.printf("Feature %d:\n", i);
